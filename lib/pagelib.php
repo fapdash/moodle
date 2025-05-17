@@ -1310,10 +1310,10 @@ class moodle_page {
      * in the standard theme.
      *
      * For an idea of the common page layouts see
-     * {@link https://docs.moodle.org/dev/Themes_overview#Layouts}
+     * {@link https://moodledev.io/docs/apis/plugintypes/theme/layout#layout-types}
      * But please keep in mind that it may be (and normally is) out of date.
      * The only place to find an accurate up-to-date list of the page layouts
-     * available for your version of Moodle is {@link theme/base/config.php}
+     * available for your version of Moodle is {@see \theme_boost\config::get_layouts()}
      *
      * @param string $pagelayout the page layout this is. For example 'popup', 'home'.
      */
