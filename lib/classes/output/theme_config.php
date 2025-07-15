@@ -134,8 +134,9 @@ class theme_config {
      * This is an array of arrays. The keys of the outer array are the different layouts.
      * Pages in Moodle are using several different layouts like 'normal', 'course', 'home',
      * 'popup', 'form', .... The most reliable way to get a complete list is to look at
-     * {@link http://cvs.moodle.org/moodle/theme/base/config.php?view=markup the base theme config.php file}.
-     * That file also has a good example of how to set this setting.
+     * {@see \theme_boost\config::get_layouts()}.
+     * {@link https://github.com/moodle/moodle/blob/main/theme/boost/config.php
+        The base theme config.php file} also has a good example of how to set this setting.
      *
      * For each layout, the value in the outer array is an array that describes
      * how you want that type of page to look. For example
